@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms - Oef2</title>
+</head>
+<body>
+    <form action="https://tm-statweb.be/forms.php" method="get">
+        <div>
+            <label for="voornaam">Voornaam: <input type="text" name="voornaam" id="voornaam" placeholder="Stijn"></label>
+        </div>
+        <div>
+            <label for="naam">Familienaam: <input type="text" name="naam" id="naam" placeholder="Lenaerts"></label>
+        </div>
+        <div>
+            <label for="username">Gebruikersnaam: <input type="text" name="username" id="username" placeholder="mail@thomasmore.be" required></label>
+        </div>
+        <div>
+            <label for="nickname">Nickname: <input type="text" name="nickname" id="nickname" min="5" max="15"></label>
+        </div>
+        <div>
+            <label for="wachtwoord">Paswoord: <input type="password" name="wachtwoord" id="wachtwoord" required></label>
+        </div>
+        <div>
+            <label for="herhaalwachtwoord">Herhaal paswoord: <input type="password" name="herhaalwachtwoord" id="herhaalwachtwoord" required></label>
+        </div>
+        <div><input type="submit" value="Registreren"></div>
+    </form>
+</body>
+</html>

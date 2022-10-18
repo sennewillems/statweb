@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms - Oef3</title>
+</head>
+<body>
+    <form action="https://tm-statweb.be/forms.php" method="get">
+        <div>
+            <fieldset>
+                <legend>Geslacht</legend>
+                <label for="man">Man</label><input type="radio" id="man" name="geslacht" value="man">
+                <label for="vrouw">Vrouw</label><input type="radio" id="vrouw" name="geslacht" value="vrouw">
+                <label for="ander">Ander</label><input type="radio" id="ander" name="geslacht" value="ander">
+            </fieldset>
+        </div>
+        <div>
+            <fieldset>
+                <legend>Kleur ogen</legend>
+                <label for="bruin">Bruin</label><input type="radio" id="bruin" name="ogen" value="bruin">
+                <label for="groen">Groen</label><input type="radio" id="groen" name="ogen" value="groen">
+                <label for="blauw">Blauw</label><input type="radio" id="blauw" name="ogen" value="blauw">
+                <label for="grijs">Grijs</label><input type="radio" id="grijs" name="ogen" value="grijs">
+            </fieldset>
+        </div>
+        <input type="submit" value="Registreren">
+    </form>
+</body>
+</html>

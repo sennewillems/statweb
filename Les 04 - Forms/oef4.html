@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms - Oef4</title>
+</head>
+<body>
+    <form action="https://tm-statweb.be/forms.php" method="post">
+        <div>
+            <label for="voornaam">Voornaam: <input type="text" name="voornaam" id="voornaam"></label>
+        </div>
+        <div>
+            <label for="naam">Familienaam: <input type="text" name="naam" id="naam"></label>
+        </div>
+        <div>
+            <label for="cars">Kies een auto:</label>
+                <select id="cars" name="cars">
+                    <option value="ford">Ford</option>
+                    <option value="peugeot">Peugeot</option>
+                    <option value="volvo">Volvo</option>
+                    <option value="skoda">Skoda</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                </select>
+        </div>
+        <div><input type="submit" value="Registreren"></div>
+    </form>
+</body>
+</html>
